@@ -1,6 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+        
+
+ 
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+    color: white;
+  }
+}
+
+ 
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+    color: white;
+  }
+}
+
+
+
+            p::first-line{
+                color:blue;
+                font-variant: small-caps;
+            }
+        </style>
         <title>
             Webpage Design
         </title>
@@ -8,12 +34,13 @@
 
     </head>
     <body>
+        
         <div class="main">
             <div class ="navbar">
                 <div class ="icon">
                     <h2 class ="logo"> Hello there!!</h2>
                 </div>
-
+            
 
                 <div class ="menu">
                     <ul>
@@ -27,7 +54,7 @@
 
                 <div class="search">
                     <input class="srch" type="search" name="" placeholder="TYPE TO SEARCH">
-                    <a href ="#" >
+                    <a href ="#" media="(max-width:800px) and (min-width:4px)" >
                         <button class ="btn">Search</button>
                     </a>
                 </div>
